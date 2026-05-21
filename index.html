@@ -1,542 +1,470 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-	<title>Ujjwal Kumar Bhardwaj</title>
-	<link rel="icon" type="image/png" href="images/p2.png" />
-	<meta name="keywords" content="Ujjwal Kumar Bhardwaj, portfolio, engineer, student, responsive" />
-	<meta name="description" content="This is the portfolio website for Ujjwal Kumar Bhardwaj" />
 	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ujjwal Kumar Bhardwaj | Android Engineer</title>
+	<meta name="description"
+		content="Portfolio of Ujjwal Kumar Bhardwaj, SDE-I Android and Android Engineer in Noida, India, focused on reliable Android apps, architecture, design systems, analytics, and crash-free product delivery.">
+	<meta name="keywords"
+		content="Ujjwal Kumar Bhardwaj, Android Engineer, SDE-I Android, Kotlin, Hilt, MVVM, MVI, Clean Architecture, Noida">
+	<meta name="author" content="Ujjwal Kumar Bhardwaj">
+	<meta name="theme-color" content="#071016">
+	<link rel="canonical" href="https://itscodezada17.github.io/">
 
-	<link
-		href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800'
-		rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Ujjwal Kumar Bhardwaj | Android Engineer">
+	<meta property="og:description"
+		content="SDE-I Android focused on architecture, design systems, app stability, analytics, and polished product delivery.">
+	<meta property="og:url" content="https://itscodezada17.github.io/">
+	<meta property="og:image" content="https://itscodezada17.github.io/images/profile_new.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Ujjwal Kumar Bhardwaj | Android Engineer">
+	<meta name="twitter:description"
+		content="Android Engineer building reliable, scalable mobile experiences with Kotlin, Hilt, MVI, MVVM, and Clean Architecture.">
+	<meta name="twitter:image" content="https://itscodezada17.github.io/images/profile_new.png">
+
+	<link rel="icon" type="image/png" href="images/p2.png">
+	<link rel="preload" href="images/profile_new.png" as="image">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo_misc.css">
 	<link rel="stylesheet" href="css/templatemo_style.css">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Ujjwal Kumar Bhardwaj",
+			"jobTitle": "SDE-I Android / Android Engineer",
+			"email": "mailto:ujjwal.bhardwaj.sde@gmail.com",
+			"telephone": "+918226898819",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Noida",
+				"addressCountry": "India"
+			},
+			"url": "https://itscodezada17.github.io/",
+			"sameAs": [
+				"https://www.linkedin.com/in/itscodezada17/",
+				"https://github.com/itscodezada17"
+			],
+			"knowsAbout": [
+				"Android",
+				"Kotlin",
+				"Hilt",
+				"MVVM",
+				"MVI",
+				"Clean Architecture",
+				"Crashlytics",
+				"Firebase",
+				"GA4"
+			]
+		}
+	</script>
 </head>
 
 <body>
+	<a class="skip-link" href="#main">Skip to content</a>
 
-	<!-- This one in here is responsive menu for tablet and mobiles -->
-	<div class="responsive-navigation visible-sm visible-xs">
-		<a href="#" class="menu-toggle-btn">
-			<i class="fa fa-bars fa-2x"></i>
-		</a>
-		<div class="navigation responsive-menu">
-			<ul>
-				<li class="home"><a href="#templatemo">Home</a></li>
-				<li class="about"><a href="#about">About Us</a></li>
-				<li class="services"><a href="#services">Skills</a></li>
-				<li class="portfolio"><a href="#portfolio">Portfolio</a></li>
-				<li class="contact"><a href="#contact">Contact</a></li>
-			</ul> <!-- /.main_menu -->
-		</div> <!-- /.responsive_menu -->
-	</div> <!-- /responsive_navigation -->
-
-	<div id="main-sidebar" class="hidden-xs hidden-sm">
-		<div class="logo">
-			<a href="https://www.youtube.com/channel/UCV9R1tYiLlI8QDGa66iOnOw" rel="nofollow" target="_blank">
-				<h1>Ujjwal Kumar Bhardwaj</h1>
+	<header class="site-header" id="top">
+		<nav class="nav-shell" aria-label="Primary navigation">
+			<a class="brand" href="#top" aria-label="Ujjwal Kumar Bhardwaj home">
+				<span class="brand-mark">UK</span>
+				<span class="brand-copy">
+					<span>Ujjwal Kumar Bhardwaj</span>
+					<small>Android Engineer</small>
+				</span>
 			</a>
-			<span>Welcome to my portfolio website.</span>
-		</div> <!-- /.logo -->
 
-		<div class="navigation">
-			<ul class="main-menu">
-				<li class="home"><a href="#templatemo">Home</a></li>
-				<li class="about"><a href="#about">About Me</a></li>
-				<li class="services"><a href="#services">Skills</a></li>
-				<li class="portfolio"><a href="#portfolio">Portfolio</a></li>
-				<li class="contact"><a href="#contact">Contact</a></li>
-			</ul>
-		</div> <!-- /.navigation -->
+			<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"
+				aria-label="Toggle navigation">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 
-	</div> <!-- /#main-sidebar -->
+			<div class="nav-links" id="primary-navigation">
+				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link" href="#experience">Experience</a>
+				<a class="nav-link" href="#skills">Skills</a>
+				<a class="nav-link" href="#project">Project</a>
+				<a class="nav-link" href="#contact">Contact</a>
+			</div>
+		</nav>
+	</header>
 
-	<div id="main-content">
+	<main id="main">
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="container hero-grid">
+				<div class="hero-copy reveal">
+					<p class="eyebrow"><i class="fa fa-map-marker" aria-hidden="true"></i> Noida, India · SDE-I Android
+					</p>
+					<h1 id="hero-title">Ujjwal Kumar Bhardwaj</h1>
+					<p class="hero-title">Android Engineer building reliable, scalable product experiences.</p>
+					<p class="hero-summary">
+						I build Android apps with Kotlin, modern architecture, design systems, analytics, and stability
+						tooling. My recent work spans Hilt adoption, MVI and Clean Architecture, crash reduction,
+						Play Store delivery, and automation that helps teams move faster.
+					</p>
 
-		<div id="templatemo">
-			<div class="main-slider">
-				<div class="flexslider">
-					<ul class="slides">
+					<div class="hero-actions" aria-label="Primary links">
+						<a class="btn btn-primary" href="images/resume.pdf" download>
+							<i class="fa fa-download" aria-hidden="true"></i>
+							Download Resume
+						</a>
+						<a class="btn btn-secondary" href="https://github.com/itscodezada17" target="_blank"
+							rel="noopener noreferrer">
+							<i class="fa fa-github" aria-hidden="true"></i>
+							GitHub
+						</a>
+						<a class="btn btn-secondary" href="https://www.linkedin.com/in/itscodezada17/" target="_blank"
+							rel="noopener noreferrer">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							LinkedIn
+						</a>
+						<a class="btn btn-quiet" href="mailto:ujjwal.bhardwaj.sde@gmail.com">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							Contact
+						</a>
+					</div>
 
-						<li>
-							<div class="slider-caption vertical-align">
-								<h2>Computer Science Student</h2>
-								<p>I am a coding enthusiast. I enjoy real life problem solving with my creativity and
-									skills. I’m insanely passionate about computer programming, currently trying my hand
-									in a number of fields, ranging from android development to competitive programming.</p>
-							</div>
-							<img src="images/slide_1.jpg" alt="Slide 1">
-						</li>
+					<div class="hero-proof" aria-label="Career highlights">
+						<div>
+							<strong>99.74%</strong>
+							<span>Crash-free rate at Visit Health</span>
+						</div>
+						<div>
+							<strong>70%+</strong>
+							<span>Developer efficiency uplift from architecture work</span>
+						</div>
+						<div>
+							<strong>3</strong>
+							<span>Product teams shipped across Android roles</span>
+						</div>
+					</div>
+				</div>
 
-						<li>
-							<div class="slider-caption">
-								<h2>Poetry</h2>
-								<p>Poetry is one of my favorite hobbies. I have been performing in various events for
-									many years.</p>
-								<a href="https://ujjwal17.blogspot.com/2020/05/dip-jala-hai-har-path-par.html" rel="nofollow"
-									class="largeButton homeBgColor">Blogspot</a>
-							</div>
-							<img src="images/slide_2.jpg" alt="Slide 2">
-						</li>
+				<aside class="profile-frame reveal" aria-label="Profile overview">
+					<img src="images/profile_new.png" alt="Ujjwal Kumar Bhardwaj" width="2717" height="2777">
+					<div class="profile-caption">
+						<span>Currently at Visit Health</span>
+						<strong>Android architecture · app stability · design systems</strong>
+					</div>
+				</aside>
+			</div>
+		</section>
 
+		<section class="section section-light" id="about" aria-labelledby="about-title">
+			<div class="container two-column">
+				<div class="section-kicker reveal">
+					<p class="eyebrow">About</p>
+					<h2 id="about-title">Product-minded Android engineer with a stability-first mindset.</h2>
+				</div>
+				<div class="section-copy reveal">
+					<p>
+						I am an SDE-I Android engineer focused on building maintainable Android products that are easy to
+						ship, observe, and scale. I have worked across healthcare, e-commerce, and education products,
+						owning features end-to-end from API integration and architecture to production stability.
+					</p>
+					<p>
+						My strongest work sits at the intersection of architecture and product impact: introducing Hilt,
+						working with MVI, MVVM, Clean Architecture, building VisitDna as a design system, and using
+						Firebase, Crashlytics, GA4, and analytics tooling to make engineering decisions measurable.
+					</p>
+					<div class="about-meta" aria-label="Quick profile">
+						<span><i class="fa fa-android" aria-hidden="true"></i> Kotlin-first Android</span>
+						<span><i class="fa fa-code-fork" aria-hidden="true"></i> Architecture and DI</span>
+						<span><i class="fa fa-line-chart" aria-hidden="true"></i> Analytics and stability</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-dark" id="impact" aria-labelledby="impact-title">
+			<div class="container">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Impact</p>
+					<h2 id="impact-title">Engineering work tied to measurable product outcomes.</h2>
+				</div>
+
+				<div class="metric-grid">
+					<article class="metric-card reveal">
+						<span class="metric-value">99.74%</span>
+						<h3>Crash-free at Visit Health</h3>
+						<p>Resolved crashes and ANRs while strengthening architecture and test coverage.</p>
+					</article>
+					<article class="metric-card reveal">
+						<span class="metric-value">99.7%</span>
+						<h3>Crash-free at BlueStone</h3>
+						<p>Improved production reliability and supported retention through live crash fixes.</p>
+					</article>
+					<article class="metric-card reveal">
+						<span class="metric-value">30%</span>
+						<h3>GA4 traffic issue solved</h3>
+						<p>Fixed unassigned traffic attribution, improving business insight quality.</p>
+					</article>
+					<article class="metric-card reveal">
+						<span class="metric-value">10%</span>
+						<h3>Retention lift supported</h3>
+						<p>Closed production stability issues that contributed to stronger user retention.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-light" id="experience" aria-labelledby="experience-title">
+			<div class="container">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Experience</p>
+					<h2 id="experience-title">Android delivery across healthcare, commerce, and education.</h2>
+				</div>
+
+				<div class="timeline">
+					<article class="experience-card reveal">
+						<div class="experience-meta">
+							<span class="company">Visit Health</span>
+							<span class="duration">Jan 2025 - Current · Noida, India</span>
+						</div>
+						<div class="experience-content">
+							<h3>SDE-I Android</h3>
+							<ul>
+								<li>Introduced Hilt DI, MVI Architecture, and Clean Architecture, increasing developer
+									efficiency by more than 70%.</li>
+								<li>Created VisitDna, the Visit design system, to improve UI consistency and delivery speed.</li>
+								<li>Built VisitAgent to identify high-occurring Crashlytics crashes and assist with branch
+									creation, fixes, PRs, RCA writing, and reproduction steps.</li>
+								<li>Owned large features end-to-end and shipped them successfully with unit test coverage.</li>
+								<li>Resolved crashes and ANRs, helping the app reach a 99.74% crash-free rate.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="experience-card reveal">
+						<div class="experience-meta">
+							<span class="company">BlueStone</span>
+							<span class="duration">Feb 2024 - Jan 2025 · Bengaluru, India</span>
+						</div>
+						<div class="experience-content">
+							<h3>SDE-I Android</h3>
+							<ul>
+								<li>Solved a GA4 unassigned traffic issue affecting around 30% of traffic, improving business
+									visibility.</li>
+								<li>Built features with MVVM architecture, API integration, and Dagger dependency injection.</li>
+								<li>Fixed live crashes, improving retention by 10% and supporting a 99.7% crash-free app.</li>
+								<li>Used ProGuard for app obfuscation and reverse-engineering protection.</li>
+								<li>Handled new features independently and released updates on the Play Store.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="experience-card reveal">
+						<div class="experience-meta">
+							<span class="company">GeeksForGeeks</span>
+							<span class="duration">June 2023 - Jan 2024 · Noida, India</span>
+						</div>
+						<div class="experience-content">
+							<h3>SDE-I Android Intern</h3>
+							<ul>
+								<li>Added rewarded ads using Google AdMob, increasing revenue opportunities.</li>
+								<li>Worked on All Courses Revamp and API implementation using MVVM and Single Activity
+									Architecture.</li>
+								<li>Added Firebase FCM notifications for multiple product use cases.</li>
+								<li>Implemented Photo Picker and resolved multiple bugs and crashes.</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-white" id="skills" aria-labelledby="skills-title">
+			<div class="container">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Skills</p>
+					<h2 id="skills-title">Android stack, architecture, observability, and delivery tooling.</h2>
+				</div>
+
+				<div class="skills-grid">
+					<section class="skill-group reveal" aria-labelledby="skills-languages">
+						<h3 id="skills-languages">Languages</h3>
+						<div class="chip-list">
+							<span>Kotlin</span>
+							<span>Java</span>
+							<span>JavaScript</span>
+						</div>
+					</section>
+
+					<section class="skill-group reveal" aria-labelledby="skills-architecture">
+						<h3 id="skills-architecture">Architecture</h3>
+						<div class="chip-list">
+							<span>MVVM</span>
+							<span>MVI</span>
+							<span>MVP</span>
+							<span>Single Activity Architecture</span>
+							<span>Clean Architecture</span>
+						</div>
+					</section>
+
+					<section class="skill-group reveal" aria-labelledby="skills-libraries">
+						<h3 id="skills-libraries">Android Libraries</h3>
+						<div class="chip-list">
+							<span>Retrofit</span>
+							<span>Room</span>
+							<span>Realm</span>
+							<span>Dagger</span>
+							<span>Hilt</span>
+							<span>Glide</span>
+							<span>Volley</span>
+							<span>Picasso</span>
+							<span>Shimmer</span>
+							<span>Lottie</span>
+							<span>Epoxy</span>
+						</div>
+					</section>
+
+					<section class="skill-group reveal" aria-labelledby="skills-stability">
+						<h3 id="skills-stability">Stability and Analytics</h3>
+						<div class="chip-list">
+							<span>Firebase</span>
+							<span>Crashlytics</span>
+							<span>GA4</span>
+							<span>Amplitude</span>
+							<span>MixPanel</span>
+							<span>WebEngage</span>
+							<span>CleverTap</span>
+							<span>LeakCanary</span>
+						</div>
+					</section>
+
+					<section class="skill-group reveal" aria-labelledby="skills-delivery">
+						<h3 id="skills-delivery">Tools and Delivery</h3>
+						<div class="chip-list">
+							<span>Android Studio</span>
+							<span>Git</span>
+							<span>CI/CD</span>
+							<span>ProGuard</span>
+							<span>DexGuard</span>
+							<span>PubNub</span>
+						</div>
+					</section>
+
+					<section class="skill-group reveal" aria-labelledby="skills-kotlin">
+						<h3 id="skills-kotlin">Kotlin and CS</h3>
+						<div class="chip-list">
+							<span>Coroutines</span>
+							<span>Flow</span>
+							<span>LiveData</span>
+							<span>Dependency Injection</span>
+							<span>SOLID Principles</span>
+							<span>Design Patterns</span>
+							<span>Gson</span>
+							<span>JUnit</span>
+							<span>mockK</span>
+							<span>Turbine</span>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-light" id="project" aria-labelledby="project-title">
+			<div class="container project-layout">
+				<div class="section-kicker reveal">
+					<p class="eyebrow">Featured Project</p>
+					<h2 id="project-title">NotesApp</h2>
+					<p class="project-subtitle">Android notes app built with Kotlin, Compose, MVVM, Room, Dagger2, and
+						custom backend APIs.</p>
+				</div>
+
+				<article class="project-card reveal">
+					<div class="project-card-header">
+						<i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+						<span>Android · Kotlin · Compose</span>
+					</div>
+					<p>
+						NotesApp is a user-specific notes product with a Compose UI, local persistence through Room,
+						Dagger2 dependency injection, and self-made APIs for saving and fetching notes.
+					</p>
+					<ul class="feature-list">
+						<li>MVVM architecture for clear UI and data flow boundaries.</li>
+						<li>Room database for reliable local note persistence.</li>
+						<li>Node.js and Express.js APIs for server-side note operations.</li>
+						<li>JWT authentication for user-specific access.</li>
 					</ul>
+					<a class="text-link" href="https://github.com/itscodezada17" target="_blank" rel="noopener noreferrer">
+						View GitHub profile <i class="fa fa-external-link" aria-hidden="true"></i>
+					</a>
+				</article>
+			</div>
+		</section>
+
+		<section class="section section-white" id="education" aria-labelledby="education-title">
+			<div class="container education-card reveal">
+				<div>
+					<p class="eyebrow">Education</p>
+					<h2 id="education-title">B.E. in Computer Science &amp; Engineering</h2>
+					<p>The University of Burdwan, West Bengal</p>
+				</div>
+				<div class="education-meta">
+					<span>Aug 2019 - June 2023</span>
+					<strong>CGPA 8.04/10</strong>
 				</div>
 			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="welcome-text">
-							<h2>Hi there!</h2>
+		</section>
 
-							<p>I am currently Student at University institute of technology burdwan , burdwan university. I have experience of working on android studio .
-							I have done competetive programming as well</p>
-						</div>
-					</div>
+		<section class="section section-contact" id="contact" aria-labelledby="contact-title">
+			<div class="container contact-layout">
+				<div class="section-kicker reveal">
+					<p class="eyebrow">Contact</p>
+					<h2 id="contact-title">Let’s talk Android engineering.</h2>
+					<p>
+						Reach out for Android roles, architecture-heavy features, design system work, app stability, or
+						mobile engineering collaboration.
+					</p>
+				</div>
+
+				<div class="contact-card reveal">
+					<a href="mailto:ujjwal.bhardwaj.sde@gmail.com">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<span>
+							<strong>Email</strong>
+							ujjwal.bhardwaj.sde@gmail.com
+						</span>
+					</a>
+					<a href="tel:+918226898819">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<span>
+							<strong>Phone</strong>
+							+91 82268 98819
+						</span>
+					</a>
+					<a href="https://www.linkedin.com/in/itscodezada17/" target="_blank" rel="noopener noreferrer">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<span>
+							<strong>LinkedIn</strong>
+							linkedin.com/in/itscodezada17
+						</span>
+					</a>
+					<a href="https://github.com/itscodezada17" target="_blank" rel="noopener noreferrer">
+						<i class="fa fa-github" aria-hidden="true"></i>
+						<span>
+							<strong>GitHub</strong>
+							github.com/itscodezada17
+						</span>
+					</a>
 				</div>
 			</div>
-		</div> <!-- /#sTop -->
+		</section>
+	</main>
 
-		<div class="container-fluid">
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="current-year">2026</span> Ujjwal Kumar Bhardwaj. Built as a static GitHub Pages portfolio.</p>
+			<a href="#top" aria-label="Back to top">Back to top</a>
+		</div>
+	</footer>
 
-			<div id="about" class="section-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>About Me</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="member-item">
-							<!--<div class="member-thumb">
-								<img src="images/team1.jpg" alt="girl 1">
-								<div class="overlay">
-									<ul class="social-member">
-										<li><a href="#" class="fa fa-facebook"></a></li>
-										<li><a href="#" class="fa fa-twitter"></a></li>
-										<li><a href="#" class="fa fa-linkedin"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="member-content">
-								<h4>Christina Welldone</h4>
-								<p>Marketing Director</p>
-							</div>-->
-						</div>
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="member-item">
-							<div class="member-thumb">
-								<img src="images/profile_new.png" alt="profile">
-								<div class="overlay">
-									<ul class="social-member">
-										<li><a href="https://www.facebook.com/ujjwal.bhardwaj.10048" class="fa fa-facebook"></a>
-										</li>
-										<li><a href="https://www.linkedin.com/in/ujjwal-kumar-bhardwaj-28b4421a2/" class="fa fa-linkedin"></a>
-										</li>
-										<li><a href="https://www.codechef.com/users/its_codezada17" class="fa"><img
-													src="images/chef.png"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="member-content">
-								<h4>I'm on <a href="https://www.codechef.com/users/its_codezada17" id="simple_link">Codechef</a>
-									and <a href="https://www.linkedin.com/in/ujjwal-kumar-bhardwaj-28b4421a2/" id="simple_link">LinkedIn</a>!
-								</h4>
-								<p>Check them out</p>
-							</div>
-						</div>
-					</div> <!-- /.col-md-4 -->
-					<div class="col-md-4">
-						<div class="member-item">
-							<div class="member-thumb">
-							</div>
-						</div> <!-- /.col-md-4 -->
-					</div> <!-- /.row -->
-					<div class="row our-story">
-						<div class="col-md-8">
-							<h3>Computer Science</h3>
-							I first learned how to program back in starting of 3rd semester in my b.tech. I I
-							am now <span id='age'>0</span> years old and I am passionate about programming. I am a 3
-							star coder at Codechef and I love making projects which can solve real life problems and
-							make this world a better place. I am also very fond of working on complex algorithms that
-							require critical thinking skills and logic.
-							<br><br>
-						</div>
-						<div class="col-md-4">
-							<div class="story-image">
-								<img src="images/responsive-design.jpg" alt="">
-							</div>
-						</div>
-					</div> <!-- /.row -->
-				</div> <!-- /#about -->
-
-				<div id="services" class="section-content">
-					<div class="row">
-						<div class="col-md-14">
-							<div class="section-title">
-								<h2>Skills</h2>
-							</div> <!-- /.section-title -->
-						</div> <!-- /.col-md-12 -->
-					</div> <!-- /.row -->
-					<div class="row">
-						<div class="col-md-4">
-							<div class="service-item clearfix">
-								<div class="service-icon">
-									<i class="fa fa-bolt fa-2x"></i>
-								</div>
-								<div class="service-content">
-									<h3>Programming<br>Languages</h3>
-								</div>
-							</div> <!-- /.service-item -->
-						</div> <!-- /.col-md-4 -->
-						<div class="col-md-4">
-							<div class="service-item">
-								<div class="service-icon">
-									<i class="fa fa-laptop fa-2x"></i>
-								</div>
-								<div class="service-content">
-									<h3>Adobe<br>Suite</h3>
-								</div>
-							</div> <!-- /.service-item -->
-						</div> <!-- /.col-md-4 -->
-						<div class="col-md-4">
-							<div class="service-item">
-								<div class="service-icon">
-									<i class="fa fa-pencil fa-2x"></i>
-								</div>
-								<div class="service-content">
-									<h3>Debate and Speech</h3>
-								</div>
-							</div> <!-- /.service-item -->
-						</div> <!-- /.col-md-4 -->
-					</div> <!-- /.row -->
-					<div class="row our-skills">
-						<div class="col-md-8">
-							<h3>My Skills</h3>
-
-							<h4>Programming</h4>
-							<pre>#include "hello.h"<br><br>int main() {<br>  printf("Hello there!\n");<br>}</pre>
-							<p>I have learned lots of important aspects about computer science throughout my years in
-								college. For example, I have learned about Data Structures and Algorithms, shell
-								scripting, multithreading etc. I am comfortable with Object oriented
-								languages like Javascript, C++ and Python. I also enjoy C. <p>
-
-
-									<h4>Poetry</h4>
-									<p>I have been performing on stage after i joined college . It's a way to
-										express my every bit of emotion. My oratory skills have always helped me in
-										leading a team and in keeping them motivated.</p>
-						</div>
-						<div class="col-md-4">
-							<div class="tags">
-								<ul>
-									<li><span>DATA STRUCTURES</span></li>
-									<li><span>Algorithms</span></li>
-									<li><span>C</span></li>
-									<li><span>C++</span></li>
-									<li><span>Python</span></li>
-									<li><span>Javascript</span></li>
-									<li><span>HTML</span></li>
-									<li><span>CSS</span></li>
-									<li><span>MySQL</span></li>
-									<li><span>ANDROID STUDIO</span></li>
-
-								</ul>
-							</div>
-							<!--					<ul class="progess-bars">
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">HTML 90%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">CSS 80%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Java 80%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">C 70%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">Javascript 60%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Git 80%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Unix 70%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Android 60%</div>
-								</div>
-							</li><li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Adobe Photoshop 85%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Adobe Illustrator 70%</div>
-								</div>
-							</li>
-							<li>
-								<div class="progress">
-									<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Photoshop Lightroom 90%</div>
-								</div>
-							</li>
-						</ul> -->
-						</div>
-					</div>
-				</div> <!-- /#services -->
-                                
-						<div id="portfolio" class="section-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title">
-								<h2>Portfolio</h2>
-							</div> <!-- /.section-title -->
-						</div> <!-- /.col-md-12 -->
-					</div> <!-- /.row -->
-
-
-					<div class="row">
-						<div class="col-md-6">
-							<div class="portfolio-item">
-								<div class="portfolio-thumb">
-									<img src="images/portfolio/1.jpg" alt="Fantasy">
-									<div class="overlay-p">
-										<a href="images/portfolio/1.jpg" data-gal="prettyPhoto">
-											<i class="fa fa-arrows-alt fa-2x"></i>
-										</a>
-									</div>
-								</div> <!-- /.portfolio-thumb -->
-								<h3 class="portfolio-title"><a href="#">Poetry</a></h3>
-							</div> <!-- /.portfolio-item -->
-						</div> <!-- /.col-md-4 -->
-						<div class="col-md-6">
-							<div class="portfolio-item">
-								<div class="portfolio-thumb">
-									<img src="images/portfolio/11.gif" alt="Poster">
-									<div class="overlay-p">
-										<a href="images/portfolio/111.gif" data-gal="prettyPhoto">
-											<i class="fa fa-arrows-alt fa-2x"></i>
-										</a>
-									</div>
-								</div> <!-- /.portfolio-thumb -->
-								<h3 class="portfolio-title"><a href="#">Photo Edits</a></h3>
-							</div> <!-- /.portfolio-item -->
-						</div> <!-- /.col-md-4 -->
-					</div> <!-- /.row -->
-					<div class="row">
-						<div class="col-md-6">
-							<div class="portfolio-item">
-								<div class="portfolio-thumb">
-									<img src="images/portfolio/7.jpg" alt="Flag">
-									<div class="overlay-p">
-										<a href="images/portfolio/77.jpg" data-gal="prettyPhoto">
-											<i class="fa fa-arrows-alt fa-2x"></i>
-										</a>
-									</div>
-								</div> <!-- /.portfolio-thumb -->
-								<!--<h3 class="portfolio-title"><a href="#">Channel</a></h3>-->
-							</div> <!-- /.portfolio-item -->
-						</div> <!-- /.col-md-4 -->
-						<div class="col-md-6">
-							<div class="portfolio-item">
-								<div class="portfolio-thumb">
-									<img src="images/portfolio/5.jpg" alt="Dragonfly">
-									<div class="overlay-p">
-										<a href="images/portfolio/55.jpg" data-gal="prettyPhoto">
-											<i class="fa fa-arrows-alt fa-2x"></i>
-										</a>
-									</div>
-								</div> <!-- /.portfolio-thumb -->
-								<!--<h3 class="portfolio-title"><a href="#">Dragonfly</a></h3>-->
-							</div> <!-- /.portfolio-item -->
-						</div> <!-- /.col-md-4 -->
-					</div> <!-- /.row -->
-					<div class="row">
-						<div class="col-md-12" id="resume-link">
-
-							<a id="resume-anchor" href="images/resume.pdf"><img
-									src="images/pdf-red.png"><span>Resume<span></a>
-						</div>
-					</div>
-					<!--<div class="row">
-					<div class="col-md-12">
-						<div class="load-more">
-							<a href="#portfolio" class="largeButton portfolioBgColor">Load More</a>
-						</div>
-					</div>
-				</div>-->
-				</div>
-
-				<div id="contact" class="section-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title">
-								<h2>Contact Me</h2>
-							</div> <!-- /.section-title -->
-						</div> <!-- /.col-md-12 -->
-					</div> <!-- /.row -->
-					<div class="row">
-						<div class="col-md-12">
-							<div class="map-holder">
-								<div class="google-map-canvas" id="map-canvas" style="height: 400px;">
-								</div>
-							</div> <!-- /.map-holder -->
-						</div> <!-- /.col-md-12 -->
-					</div> <!-- /.row -->
-					<div class="row contact-form">
-						<!-- <div class="col-md-4">
-						<label for="name-id" class="required">Name:</label>
-						<input name="name-id" type="text" id="name-id" maxlength="40">
-					</div>
-					<div class="col-md-4">
-						<label for="email-id" class="required">Email:</label>
-						<input name="email-id" type="text" id="email-id" maxlength="40">
-					</div>
-					<div class="col-md-4">
-						<label for="subject-id">Subject:</label>
-						<input name="subject-id" type="text" id="subject-id" maxlength="60">
-					</div>
-					<div class="col-md-12">
-						<label for="message-id" class="required">Message:</label>
-						<textarea name="message-id" id="message-id" rows="6"></textarea>
-					</div>  -->
-
-						<div class="col-md-12">
-							<br>
-							<div class="submit-btn" id="mail-link">
-							</div> <!-- /.submit-btn -->
-						</div> <!-- /.col-md-12 -->
-						</form>
-
-					</div>
-				</div> <!-- /#contact -->
-
-			</div> <!-- /.container-fluid -->
-
-			<div class="site-footer">
-				<div class="first-footer">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="social-footer">
-									<ul>
-										<li><a href="https://www.linkedin.com/in/ujjwal-kumar-bhardwaj-28b4421a2/" class="fa fa-linkedin"></a>
-										</li>
-										<li><a href="https://github.com/itscodezada17" class="fa fa-github"></a></li>
-										<li><a href="https://www.codechef.com/users/its_codezada17" class="fa"><img
-													src="images/chef.png" width="30px" height="24px"></a></li>
-										<li><a href="https://www.youtube.com/channel/UCV9R1tYiLlI8QDGa66iOnOw" class="fa"><img
-													src="images/utube.png" width="20px" height="16px"></a>
-										<li>
-										<li><a href="https://www.facebook.com/ujjwal.bhardwaj.10048" class="fa fa-facebook"
-												class="fa fa-facebook"></a></li>
-										
-									</ul>
-								</div> <!-- /.social-footer -->
-							</div> <!-- /.col-md-12 -->
-						</div> <!-- /.row -->
-					</div> <!-- /.container-fluid -->
-				</div> <!-- /.first-footer -->
-				<div class="bottom-footer">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-6">
-								<p class="copyright">Copyright © 2021 <a href="#">Ujjwal Kumar Bhardwaj</a>
-								</p>
-							</div> <!-- /.col-md-6 -->
-
-						</div> <!-- /.row -->
-					</div> <!-- /.container-fluid -->
-				</div> <!-- /.bottom-footer -->
-			</div> <!-- /.site-footer -->
-
-		</div> <!-- /#main-content -->
-
-		<!-- JavaScripts -->
-		<script src="js/jquery-1.10.2.min.js"></script>
-		<script src="js/jquery.singlePageNav.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/jquery.prettyPhoto.js"></script>
-		<script src="js/custom.js"></script>
-		<script>
-			$(document).ready(function () {
-				$("a[data-gal^='prettyPhoto']").prettyPhoto({ hook: 'data-gal' });
-			});
-
-			function initialize() {
-				var mapOptions = {
-					zoom: 11,
-					center: new google.maps.LatLng(23.262023, 87.849588)
-				};
-
-				var map = new google.maps.Map(document.getElementById('map-canvas'),
-					mapOptions);
-			}
-
-			function loadScript() {
-				var script = document.createElement('script');
-				script.type = 'text/javascript';
-				script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-					'callback=initialize';
-				document.body.appendChild(script);
-			}
-
-			window.onload = loadScript;
-
-		</script>
-		<script type="text/javascript">
-
-			document.getElementById('mail-link').innerHTML = '<a href="mailto:ujjwalmehsi17@gmail.com" class="email">ujjwalmehsi17@gmail.com</a>';
-		</script>
-		<script>
-			(function (i, s, o, g, r, a, m) {
-				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-					(i[r].q = i[r].q || []).push(arguments)
-				}, i[r].l = 1 * new Date(); a = s.createElement(o),
-					m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-			ga('create', 'UA-59990422-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<script>
-			var today = new Date();
-			var birthDate = new Date("December 17, 1999 00:00:00");
-			var age = today.getFullYear() - birthDate.getFullYear();
-			var m = today.getMonth() - birthDate.getMonth();
-			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-				age--;
-			}
-			document.getElementById('age').innerHTML = age;
-		</script>
-		<noscript>Please enable Javascript.</noscript>
-
+	<script src="js/custom.js"></script>
 </body>
-<script type='text/javascript' src='js/logging.js'></script>
 
 </html>
